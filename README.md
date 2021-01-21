@@ -63,7 +63,6 @@ def Exit():
     if messagebox.askyesno('Exit','Do you really want to exit'):
         root.destroy()
 
-
 #=====================Heading=======================
 title=Label(root,text='Employee Records System',bg=bg_color,fg='white',font=('times new rommon',35,'bold'),relief=GROOVE,bd=12)
 title.pack(fill=X)
